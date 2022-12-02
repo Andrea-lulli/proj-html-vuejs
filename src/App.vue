@@ -167,5 +167,8 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Heebo&family=Inter&family=Kanit:ital@1&family=Noto+Sans&family=PT+Sans:ital@1&family=Roboto&family=Ubuntu&display=swap');
 </style>
