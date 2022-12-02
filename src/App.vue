@@ -49,7 +49,7 @@ export default {
       Testimonials:[
         {
           id: 1,
-          photo: '',
+          photo: '26.jpeg',
           name: 'Julia',
           firstname: 'Aann',
           role: 'COO Softbox',
@@ -57,7 +57,7 @@ export default {
         },
          {
           id: 2,
-          photo: '',
+          photo: '27.jpeg',
           name: 'Mac',
           firstname: 'Znder',
           role: 'Manager Sofbox',
