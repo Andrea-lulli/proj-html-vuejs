@@ -2,7 +2,7 @@
   <div id="app">
     <HeaderComp :nav="nav" />
     <JumbotronComp />
-    <MainComp :latest_post="latest_post" />
+    <MainComp :latest_post="latest_post" :key_features="key_features" />
     <FooterComp :footer="footer" />
   </div>
 </template>
@@ -171,6 +171,49 @@ export default {
           title: "Life Lack Meaning",
           description:
             "it is a long estabilished fact that a reader will be distracted by the readable.",
+        },
+      ],
+
+      key_features: [
+        {
+          id: 1,
+          name: "Customized Invoices",
+          img: "customized.png",
+        },
+        {
+          id: 2,
+          name: "Stock Management",
+          img: "stock.png",
+        },
+        {
+          id: 3,
+          name: "Receivable & Payables",
+          img: "receivable.png",
+        },
+        {
+          id: 4,
+          name: "Manage Buying",
+          img: "manage.png",
+        },
+        {
+          id: 5,
+          name: "Powerful & Secure",
+          img: "powerful.png",
+        },
+        {
+          id: 6,
+          name: "Fastest Return Filing",
+          img: "receivable.png",
+        },
+        {
+          id: 7,
+          name: "Monthly Detailed",
+          img: "Monthly.png",
+        },
+        {
+          id: 8,
+          name: "Product Management",
+          img: "product.png",
         },
       ],
     };

@@ -57,4 +57,8 @@ export default {
   border-radius: 3px;
   color: white;
 }
+.button-blue:hover{
+  background-color: black;
+}
+
 </style>

@@ -3,7 +3,7 @@
   <section>
     <!-- titolo sezione -->
     <div class="titolo">
-      <h3>Latest Posts</h3>
+      <h2>Latest Posts</h2>
       <p>if you are pianning on developing a product loading</p>
     </div>
 
