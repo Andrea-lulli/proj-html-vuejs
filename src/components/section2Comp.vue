@@ -15,7 +15,7 @@
       <!-- conteiner card con img  -->
       <div>
         <!-- card reporting -->
-        <div class="card">
+        <div class="card shadow">
           <div class="img-card">
             <img src="../assets/img/510.png" alt="" />
           </div>
@@ -29,7 +29,7 @@
         </div>
 
         <!-- card technical con img  -->
-        <div class="card">
+        <div class="card shadow">
           <div class="img-card">
             <img src="../assets/img/511.png" alt="" />
           </div>
@@ -68,21 +68,30 @@ export default {
 
 .card {
   display: flex;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .card-sx {
   flex-basis: 46%;
   margin-top: 80px;
+  
 }
 
 .card-dx {
   flex-basis: 46%;
   margin-top: 80px;
+  img{
+ padding-top: 120px;
+  }
+  
 }
 
 div {
   img {
-    width: 85%;
+    width: 100%;
+    padding: 0 5px;
+   
   }
 }
 
@@ -96,7 +105,8 @@ h1 {
   line-height: 40px;
 }
 .descrizione {
-  margin: 0px 15px;
+  margin: 0px 10px;
+  width: 80%;
 }
 
 .report {
@@ -104,12 +114,15 @@ h1 {
 }
 h5 {
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .img-card {
   img {
     width: 100%;
-    margin: 20px 0;
   }
+}
+.shadow:hover{
+  box-shadow: 0px 15px 27px 3px #e2dcdc;
 }
 </style>

@@ -43,7 +43,7 @@ export default {
 header {
   width: 80%;
   margin: 0 auto;
-  padding: 20px 0 0 0;
+  padding: 10px 0 15px 0;
   display: flex;
 }
 div {
@@ -69,6 +69,7 @@ nav {
     padding: 4% 0;
     color: #495057;
     justify-content: space-between;
+    border-bottom: 2px solid white
   }
 }
 

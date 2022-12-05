@@ -51,7 +51,7 @@ export default {
 .card {
   flex-basis: 30%;
   display: flex;
-  margin: 30px 0;
+  margin: 110px 0;
 }
 
 li {

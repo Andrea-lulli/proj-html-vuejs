@@ -2,7 +2,7 @@
   <div class="jumbotron">
 
     <!-- testo laterale six -->
-    <div>
+    <div class="junb-sx">
       <div>
         <h1>The biggest platform for yoour growth.</h1>
         <p>
@@ -16,8 +16,8 @@
     </div>
 
     <!-- img laterale dx -->
-    <div>
-      <img src="../assets/img/508.jpeg" alt="" />
+    <div class="jumb-dx">
+      <img src="../assets/img/27-1.png" alt="" />
     </div>
   </div>
 </template>
@@ -34,14 +34,17 @@ export default {
   width: 90%;
   margin: 0 auto;
   display: flex;
+  background-color: #f2f7ff;
+  padding: 35px 20px;
+  border-radius: 10px;
   div {
     flex-basis: 50%;
     h1 {
-      margin-top: 70px;
+      margin-top: 20px;
       margin-bottom: 20px;
       line-height: 50px;
       font-weight: 500;
-      font-size: 40px;
+      font-size: 35px;
     }
     p {
       margin-bottom: 30px;
@@ -59,6 +62,21 @@ export default {
 }
 .button-blue:hover{
   background-color: black;
+}
+.jumb-dx, .jumb-sx{
+  flex-basis: 48%;
+  position: relative;
+  
+}
+div{
+  img{
+    width: 90%;
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    
+   
+  }
 }
 
 </style>

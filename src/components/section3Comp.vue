@@ -1,5 +1,9 @@
 <template>
-  <section>
+<div class="conteiner">
+  <div class="sfondo">
+    <img src="../assets/img/14.png" alt="">
+  </div>
+<section>
     <!-- conteiner titolo -->
     <div class="conteiner-title">
       <div class="title">
@@ -28,6 +32,8 @@
       </div>
     </div>
   </section>
+</div>
+  
 </template>
 
 <script>
@@ -40,9 +46,24 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.conteiner{
+  width: 100%;
+  position: relative;
+}
+.sfondo{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    img{
+      width: 54%;
+    }
+    
+  }
 section {
   width: 80%;
   margin: 0 auto;
+  
 }
 .conteiner-card {
   display: flex;
