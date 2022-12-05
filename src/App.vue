@@ -3,7 +3,7 @@
     <HeaderComp  :nav="nav" />
     <JumbotronComp />
     <MainComp />
-    <FooterComp />
+    <FooterComp :footer="footer" />
   </div>
 </template>
 
