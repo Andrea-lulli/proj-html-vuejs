@@ -4,7 +4,7 @@
         <section2Comp />
         <section3Comp />
         <section4Comp />
-        <section5Comp />
+        <section5Comp :latest_post="latest_post" />
         <section6Comp />
     </div>
 </template>
@@ -30,7 +30,7 @@ import section6Comp from "./section6Comp.vue";
     section6Comp, 
   },
         props: {
-    
+    latest_post: Array
   }
     }
 </script>
