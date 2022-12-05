@@ -55,9 +55,11 @@ section {
   margin-bottom: 40px;
   padding: 15px 10px;
   box-shadow: 5px 5px 32px 7px #e2dcdc;
+  border-radius: 5px;
 }
 .icone {
   width: 30%;
+  margin: 10px 0;
 }
 h5 {
   margin-left: 10px;
@@ -90,4 +92,13 @@ h5 {
 .cont-button {
   flex-basis: 23%;
 }
+.card:hover{
+  background-color: #6cdac1;
+  color: white;
+  filter: brightness(110%);
+  .icone{
+    filter: invert(0.4);
+}
+}  
+  
 </style>
