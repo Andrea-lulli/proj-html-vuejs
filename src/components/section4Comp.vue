@@ -43,8 +43,8 @@
       </div>
       <!-- pulsanti cambio card -->
       <div class="cambio-card">
-        <span class="cl-blu" @click="cambiocard()">&#183;</span>
-        <span @click="cambiocard1()">&#183;</span>
+        <span :class="(ind_dim == 0) ? 'cl-blu' : '' " @click="cambiocard()">&#183;</span>
+        <span :class="(ind_dim == 2) ? 'cl-blu' : '' " @click="cambiocard1()">&#183;</span>
       </div>
     </div>
   </section>
