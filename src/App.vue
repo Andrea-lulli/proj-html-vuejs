@@ -2,7 +2,7 @@
   <div id="app">
     <HeaderComp :nav="nav" />
     <JumbotronComp />
-    <MainComp :latest_post="latest_post" :key_features="key_features" />
+    <MainComp :latest_post="latest_post" :key_features="key_features" :testimonials="testimonials" />
     <FooterComp :footer="footer" />
   </div>
 </template>
@@ -46,7 +46,7 @@ export default {
         },
       ],
 
-      Testimonials: [
+      testimonials: [
         {
           id: 1,
           photo: "26.jpeg",
@@ -54,7 +54,7 @@ export default {
           firstname: "Aann",
           role: "COO Softbox",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         },
         {
           id: 2,
@@ -63,7 +63,7 @@ export default {
           firstname: "Znder",
           role: "Manager Sofbox",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         },
       ],
       footer: [

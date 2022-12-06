@@ -3,7 +3,7 @@
     <section1Comp />
     <section2Comp />
     <section3Comp :key_features="key_features" />
-    <section4Comp />
+    <section4Comp :testimonials="testimonials"  />
     <section5Comp :latest_post="latest_post" />
     <section6Comp />
   </div>
@@ -30,6 +30,7 @@ export default {
   props: {
     latest_post: Array,
     key_features: Array,
+    testimonials: Array,
   },
 };
 </script>

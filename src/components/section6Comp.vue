@@ -1,114 +1,120 @@
 <template>
-  <!-- sezione 6 - contact -->
-  <section class="conteiner">
-    <!-- titolo contact -->
-    <div class="titolo">
-      <h2>Contact with our team</h2>
-      <p>if you are planning on developing a product landing</p>
-    </div>
-
-    <!-- conteiner mappa -->
-    <div class="conteiner-contact">
-      <div class="sez-sx">
-        <div class="mappa">
-          <img src="../assets/img/StaticMapService.GetMapIma.png" alt="" />
-          <div class="conteiner-ind">
-            <div>
-              <p class="street">Storey Ave</p>
-              <p>San Francisco. California 94129</p>
-              <p class="opzioni-mappa">Visualizza mappa piu grande</p>
-            </div>
-            <div>
-              <img src="../assets/img/freccia mappa.png" alt="" />
-            </div>
-          </div>
-
-          <!-- posizione su mappa -->
-          <div class="ind-posizione">
-            <img src="../assets/img/posizione-mappa.png" alt="" />
-          </div>
-          <!-- dati mappa -->
-          <div class="dati-mappa">
-            <span>Data maggio 2020 </span>
-            <span>Termini e condizioni d'uso</span>
-            <span>Segnala un arrore sulla mappa</span>
-          </div>
-
-          <!-- zoom mappa -->
-          <div class="zoom">
-            <div>
-              <button>+</button>
-            </div>
-            <div>
-              <button>-</button>
-            </div>
-          </div>
-
-          <!-- immagine satellite su mappa -->
-          <div class="img-satellite">
-            <img src="../assets/img/satellite.png" alt="" />
-          </div>
-        </div>
+  <div class="conteiner-bg-blu">
+    <!-- sezione 6 - contact -->
+    <section class="conteiner">
+      <!-- titolo contact -->
+      <div class="titolo">
+        <h2>Contact with our team</h2>
+        <p>if you are planning on developing a product landing</p>
       </div>
 
-      <!-- conrteiner lato dx -->
-      <div class="sez-dx">
-        <!-- logo -->
-        <div class="logo">
-          <img src="../assets/img/35.png" alt="" />
+      <!-- conteiner mappa -->
+      <div class="conteiner-contact">
+        <div class="sez-sx">
+          <div class="mappa">
+            <img src="../assets/img/StaticMapService.GetMapIma.png" alt="" />
+            <div class="conteiner-ind">
+              <div>
+                <p class="street">Storey Ave</p>
+                <p>San Francisco. California 94129</p>
+                <p class="opzioni-mappa">Visualizza mappa piu grande</p>
+              </div>
+              <div>
+                <img src="../assets/img/freccia mappa.png" alt="" />
+              </div>
+            </div>
+
+            <!-- posizione su mappa -->
+            <div class="ind-posizione">
+              <img src="../assets/img/posizione-mappa.png" alt="" />
+            </div>
+            <!-- dati mappa -->
+            <div class="dati-mappa">
+              <span>Data maggio 2020 </span>
+              <span>Termini e condizioni d'uso</span>
+              <span>Segnala un arrore sulla mappa</span>
+            </div>
+
+            <!-- zoom mappa -->
+            <div class="zoom">
+              <div>
+                <button>+</button>
+              </div>
+              <div>
+                <button>-</button>
+              </div>
+            </div>
+
+            <!-- immagine satellite su mappa -->
+            <div class="img-satellite">
+              <img src="../assets/img/satellite.png" alt="" />
+            </div>
+          </div>
         </div>
 
-        <!-- posizione  -->
-        <div class="posizione">
-          <h5>9840 Shore St. Fond Du Loc. WI 54935</h5>
-          <p>0 1223 456 789</p>
-          <p>mail@sofbox.com</p>
-        </div>
+        <!-- conrteiner lato dx -->
+        <div class="sez-dx">
+          <!-- logo -->
+          <div class="logo">
+            <img src="../assets/img/35.png" alt="" />
+          </div>
 
-        <!-- conteiner icone  -->
-        <div class="conteiner-icone">
-          <font-awesome-icon
-            icon="fa-brands fa-facebook-f"
-            class="icone icone-fb"
-          />
-          <font-awesome-icon icon="fa-brands fa-twitter" class="icone" />
-          <font-awesome-icon icon="fa-brands fa-github" class="icone" />
-          <font-awesome-icon icon="fa-brands fa-instagram" class="icone" />
-        </div>
-        <!-- conteiner form -->
-        <div>
+          <!-- posizione  -->
+          <div class="posizione">
+            <h5>9840 Shore St. Fond Du Loc. WI 54935</h5>
+            <p>0 1223 456 789</p>
+            <p>mail@sofbox.com</p>
+          </div>
+
+          <!-- conteiner icone  -->
+          <div class="conteiner-icone">
+            <font-awesome-icon
+              icon="fa-brands fa-facebook-f"
+              class="icone icone-fb"
+            />
+            <font-awesome-icon icon="fa-brands fa-twitter" class="icone" />
+            <font-awesome-icon icon="fa-brands fa-github" class="icone" />
+            <font-awesome-icon icon="fa-brands fa-instagram" class="icone" />
+          </div>
+          <!-- conteiner form -->
           <div>
-            <h5>Get in Touch</h5>
-          </div>
-
-          <!-- form -->
-          <form>
-            <!-- conteiner imnput name e mail -->
-            <div class="input_name">
-              <input class="name" type="text" placeholder="Your Name" />
-              <input class="name email" type="email" placeholder="Your Email" />
-            </div>
-
-            <!-- conteiner imnput subject-->
-            <div class="input_subject">
-              <input class="name" type="text" placeholder="Your Subject" />
-            </div>
-
-            <!-- conteiner imnput subject-->
-            <div class="input_subject">
-              <textarea class="message" name="message" rows="20" cols="65">
-               Your Message</textarea
-              >
-            </div>
-            <!-- button di invio dati -->
             <div>
-              <button class="button-blue">Send Message</button>
+              <h5>Get in Touch</h5>
             </div>
-          </form>
+
+            <!-- form -->
+            <form>
+              <!-- conteiner imnput name e mail -->
+              <div class="input_name">
+                <input class="name" type="text" placeholder="Your Name" />
+                <input
+                  class="name email"
+                  type="email"
+                  placeholder="Your Email"
+                />
+              </div>
+
+              <!-- conteiner imnput subject-->
+              <div class="input_subject">
+                <input class="name" type="text" placeholder="Your Subject" />
+              </div>
+
+              <!-- conteiner imnput subject-->
+              <div class="input_subject">
+                <textarea class="message" name="message" rows="20" cols="65">
+               Your Message</textarea
+                >
+              </div>
+              <!-- button di invio dati -->
+              <div>
+                <button class="button-blue">Send Message</button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -118,13 +124,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.conteiner-bg-blu {
+  width: 100%;
+  background-color: #f2fff7;
+}
 .conteiner {
   margin: 0 auto;
   width: 80%;
 }
 .titolo {
   text-align: center;
-  margin: 50px 0;
+  padding: 50px 0;
   p {
     margin: 20px 0;
   }
@@ -142,8 +152,8 @@ h5 {
   display: flex;
   justify-content: space-between;
 }
-.sez-sx,
-.sez-dx {
+
+.sez-sx {
   flex-basis: 48%;
 
   img {

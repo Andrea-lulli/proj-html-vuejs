@@ -1,35 +1,37 @@
 <template>
-  <footer>
-    <div class="conteiner-card">
-      <!-- footer laterale sx -->
-      <div class="card-sx">
-        <div>
-          <img src="../assets/img/35.png" alt="" />
+  <div class="conteiner-bg-blu">
+    <footer>
+      <div class="conteiner-card">
+        <!-- footer laterale sx -->
+        <div class="card-sx">
+          <div>
+            <img src="../assets/img/35.png" alt="" />
+          </div>
+          <div>
+            <p>
+              It is a long estabilished fact that a reder will be distracted by
+              the readable content.
+            </p>
+            <p>Copyright @ 2018 <span>Sofbox</span></p>
+          </div>
         </div>
-        <div>
-          <p>
-            It is a long estabilished fact that a reder will be distracted by
-            the readable content.
-          </p>
-          <p>Copyright @ 2018 <span>Sofbox</span></p>
-        </div>
-      </div>
 
-      <!-- footer laterale dx -->
-      <div class="card-dx">
-        <ul v-for="(elem, index) in footer" :key="index">
-          <li class="titolo">{{ elem.name }}</li>
-          <li
-            class="lista-footer"
-            v-for="(element, index) in elem.options_menu"
-            :key="index"
-          >
-            {{ element.name }}
-          </li>
-        </ul>
+        <!-- footer laterale dx -->
+        <div class="card-dx">
+          <ul v-for="(elem, index) in footer" :key="index">
+            <li class="titolo">{{ elem.name }}</li>
+            <li
+              class="lista-footer"
+              v-for="(element, index) in elem.options_menu"
+              :key="index"
+            >
+              {{ element.name }}
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 </template>
 
 <script>
@@ -42,6 +44,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.conteiner-bg-blu {
+  width: 100%;
+  background-color: #f2fff7;
+}
 footer {
   width: 80%;
   margin: 0 auto;

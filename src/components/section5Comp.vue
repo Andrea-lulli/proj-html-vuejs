@@ -1,28 +1,30 @@
 <template>
-  <!-- sezione 5 latest post -->
-  <section>
-    <!-- titolo sezione -->
-    <div class="titolo">
-      <h2>Latest Posts</h2>
-      <p>if you are pianning on developing a product loading</p>
-    </div>
+  <div class="conteiner-bg-blu">
+    <!-- sezione 5 latest post -->
+    <section>
+      <!-- titolo sezione -->
+      <div class="titolo">
+        <h2>Latest Posts</h2>
+        <p>if you are pianning on developing a product loading</p>
+      </div>
 
-    <div class="conteiner-card">
-      <!--sez card img -->
-      <div class="card" v-for="(elem, index) in latest_post" :key="index">
-        <div class="conteiner-img">
-          <img :src="`/img/${elem.img}`" alt="" />
-          <span>{{ elem.data }}</span>
-        </div>
-        
-        <!-- sez card testo -->
-        <div>
-          <h5>{{ elem.title }}</h5>
-          <p class="titolo-card">{{ elem.description }}</p>
+      <div class="conteiner-card">
+        <!--sez card img -->
+        <div class="card" v-for="(elem, index) in latest_post" :key="index">
+          <div class="conteiner-img">
+            <img :src="`/img/${elem.img}`" alt="" />
+            <span>{{ elem.data }}</span>
+          </div>
+
+          <!-- sez card testo -->
+          <div>
+            <h5>{{ elem.title }}</h5>
+            <p class="titolo-card">{{ elem.description }}</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -36,6 +38,10 @@ export default {
 
 
 <style lang="scss" scoped>
+.conteiner-bg-blu {
+  width: 100%;
+  background-color: #f2fff7;
+}
 section {
   width: 80%;
   margin: 0 auto;
