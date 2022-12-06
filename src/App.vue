@@ -65,6 +65,7 @@ export default {
           description:
             "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vero eos et consectetur accus adip adip.",
         },
+        
       ],
       footer: [
         {
