@@ -162,6 +162,9 @@ h5 {
   img {
     width: 20%;
   }
+  .conteiner-icone{
+    margin-top: 40px;
+  }
 }
 .icone {
   color: #377dff;

@@ -47,6 +47,8 @@ export default {
 .conteiner-bg-blu {
   width: 100%;
   background-color: #f2fff7;
+  border-top: #efe9e9 1px solid ;
+  padding-top: 50px;
 }
 .conteiner-card {
   display: flex;

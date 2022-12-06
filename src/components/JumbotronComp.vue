@@ -70,9 +70,9 @@ export default {
 }
 div{
   img{
-    width: 90%;
+    width: 100%;
     position: absolute;
-    bottom: -70px;
+    bottom: -60px;
     left: 0;
     
    

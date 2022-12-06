@@ -89,7 +89,7 @@ nav {
 .button-blue {
   background-color: #377dff;
   border: 0;
-  padding: 10px 20px;
+  padding: 12px 14px;
   border-radius: 3px;
   color: white;
 }
