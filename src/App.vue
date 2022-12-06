@@ -54,7 +54,7 @@ export default {
           firstname: "Aann",
           role: "COO Softbox",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vero eos et consectetur accus adip adip.",
         },
         {
           id: 2,
@@ -63,7 +63,7 @@ export default {
           firstname: "Znder",
           role: "Manager Sofbox",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vero eos et consectetur accus adip adip.",
         },
       ],
       footer: [
