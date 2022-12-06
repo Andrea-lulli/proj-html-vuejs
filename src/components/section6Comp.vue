@@ -1,7 +1,7 @@
 <template>
   <div class="conteiner-bg-blu">
     <!-- sezione 6 - contact -->
-    <section class="conteiner">
+    <section class="conteiner-sito">
       <!-- titolo contact -->
       <div class="titolo">
         <h2>Contact with our team</h2>
@@ -101,7 +101,7 @@
 
               <!-- conteiner imnput subject-->
               <div class="input_subject">
-                <textarea class="message" name="message" rows="20" cols="65">
+                <textarea class="message" name="message" rows="20" cols="55">
                Your Message</textarea
                 >
               </div>
@@ -127,10 +127,6 @@ export default {
 .conteiner-bg-blu {
   width: 100%;
   background-color: #f2fff7;
-}
-.conteiner {
-  margin: 0 auto;
-  width: 80%;
 }
 .titolo {
   text-align: center;

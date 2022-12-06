@@ -31,7 +31,7 @@ export default {
 <style lang="scss" scoped>
 
 .jumbotron {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   display: flex;
   background-color: #f2f7ff;

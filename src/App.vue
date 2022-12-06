@@ -235,5 +235,10 @@ export default {
   font-family: "Comfortaa", cursive;
 }
 
+.conteiner-sito{
+  width: 70%;
+  margin: 0 auto
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Heebo&family=Inter&family=Kanit:ital@1&family=Noto+Sans&family=PT+Sans:ital@1&family=Roboto&family=Ubuntu&display=swap");
 </style>

@@ -1,6 +1,6 @@
 <template>
   <!-- sezione 1 online marketing -->
-  <section class="conteiner">
+  <section class="conteiner conteiner-sito">
     <!-- img laterale six  -->
     <div class="card" v-for="(elem, index) in 3" :key="index">
       <div>
@@ -44,8 +44,6 @@ export default {
 
 <style lang="scss" scoped>
 .conteiner {
-  width: 80%;
-  margin: 0 auto;
   display: flex;
 }
 .card {

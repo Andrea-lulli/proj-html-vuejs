@@ -1,6 +1,6 @@
 <template>
   <div class="conteiner-bg-blu">
-    <footer>
+    <footer class="conteiner-sito">
       <div class="conteiner-card">
         <!-- footer laterale sx -->
         <div class="card-sx">
@@ -48,11 +48,6 @@ export default {
   width: 100%;
   background-color: #f2fff7;
 }
-footer {
-  width: 80%;
-  margin: 0 auto;
-}
-
 .conteiner-card {
   display: flex;
 }

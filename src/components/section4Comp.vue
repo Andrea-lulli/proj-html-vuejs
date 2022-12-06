@@ -10,7 +10,7 @@
     </div>
     <div class="conteiner-bg-blu">
       <!-- conteiner card -->
-      <div class="conteiner-card">
+      <div class="conteiner-card conteiner-sito">
         <div class="card" v-for="(elem, index) in testimonials" :key="index">
           <!-- img card -->
           <div>
@@ -66,14 +66,15 @@ export default {
 .conteiner-card {
   display: flex;
   justify-content: space-around;
-  width: 80%;
-  margin: 0 auto;
 }
 .card {
   flex-basis: 37%;
   padding: 15px;
   box-shadow: 0px 8px 22px 5px#eff1fe;
-  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  background-image: url('../assets/img/img-virgolette.png');
 }
 
 div {

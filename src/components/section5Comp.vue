@@ -1,7 +1,7 @@
 <template>
   <div class="conteiner-bg-blu">
     <!-- sezione 5 latest post -->
-    <section>
+    <section class="conteiner-sito">
       <!-- titolo sezione -->
       <div class="titolo">
         <h2>Latest Posts</h2>
@@ -41,10 +41,6 @@ export default {
 .conteiner-bg-blu {
   width: 100%;
   background-color: #f2fff7;
-}
-section {
-  width: 80%;
-  margin: 0 auto;
 }
 .conteiner-card {
   display: flex;

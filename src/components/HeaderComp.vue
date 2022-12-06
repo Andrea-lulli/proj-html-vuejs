@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="conteiner-sito">
     <!-- logo -->
     <div>
       <img src="../assets/img/logo-2.png" alt="" />
@@ -41,16 +41,15 @@ export default {
 
 <style scoped lang="scss">
 header {
-  width: 80%;
-  margin: 0 auto;
   padding: 10px 0 15px 0;
   display: flex;
 }
 div {
+  display: flex;
   flex-basis: 20%;
   align-items: center;
   img {
-    width: 50px;
+    width: 35px;
   }
 }
 

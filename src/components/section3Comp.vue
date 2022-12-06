@@ -3,7 +3,7 @@
   <div class="sfondo">
     <img src="../assets/img/14.png" alt="">
   </div>
-<section>
+<section class="conteiner-sito">
     <!-- conteiner titolo -->
     <div class="conteiner-title">
       <div class="title">
@@ -60,11 +60,6 @@ export default {
     }
     
   }
-section {
-  width: 80%;
-  margin: 0 auto;
-  
-}
 .conteiner-card {
   display: flex;
   flex-wrap: wrap;

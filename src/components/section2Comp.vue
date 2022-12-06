@@ -1,6 +1,6 @@
 <template>
   <!-- sezione 2 - get tips tricks -->
-  <section class="conteiner">
+  <section class="conteiner conteiner-sito">
     <!-- card sx -->
     <div class="card-sx">
       <!-- titolo sezione  -->
@@ -60,8 +60,6 @@ export default {
 
 <style lang="scss" scoped>
 .conteiner {
-  width: 80%;
-  margin: 0 auto;
   display: flex;
   justify-content: space-around;
 }
