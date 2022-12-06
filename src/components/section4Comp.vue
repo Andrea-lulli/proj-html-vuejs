@@ -110,6 +110,7 @@ export default {
   background-position: center;
   background-color: white;
   background-image: url("../assets/img/img-virgolette.png");
+  cursor: pointer;
 }
 
 div {

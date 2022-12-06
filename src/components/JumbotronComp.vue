@@ -59,9 +59,11 @@ export default {
   padding: 10px 20px;
   border-radius: 3px;
   color: white;
+  cursor: pointer;
 }
 .button-blue:hover{
   background-color: black;
+  cursor: pointer;
 }
 .jumb-dx, .jumb-sx{
   flex-basis: 48%;

@@ -72,6 +72,7 @@ export default {
   padding: 15px 10px;
   box-shadow: 5px 5px 32px 7px #e2dcdc;
   border-radius: 5px;
+  cursor: pointer;
 }
 .icone {
   width: 30%;
@@ -88,6 +89,7 @@ h5 {
   padding: 15px 20px;
   border-radius: 3px;
   color: white;
+  cursor: pointer;
 }
 
 .conteiner-title {

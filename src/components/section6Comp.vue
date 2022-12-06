@@ -256,6 +256,7 @@ h5 {
   border-radius: 3px;
   color: white;
   margin: 15px 0 100px 0;
+  cursor: pointer;
 }
 .conteiner-ind {
   display: flex;

@@ -69,7 +69,8 @@ nav {
     padding: 4% 0;
     color: #495057;
     justify-content: space-between;
-    border-bottom: 2px solid white
+    border-bottom: 2px solid white;
+    cursor: pointer;
   }
 }
 
@@ -92,6 +93,7 @@ nav {
   padding: 12px 14px;
   border-radius: 3px;
   color: white;
+  cursor: pointer;
 }
 
 .icon-carrello{
