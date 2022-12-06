@@ -83,11 +83,17 @@
             </div>
 
             <!-- form -->
-            <form>
+            <div>
               <!-- conteiner imnput name e mail -->
               <div class="input_name">
-                <input class="name" type="text" placeholder="Your Name" />
                 <input
+                  v-model="name"
+                  class="name"
+                  type="text"
+                  placeholder="Your Name"
+                />
+                <input
+                  v-model="email"
                   class="name email"
                   type="email"
                   placeholder="Your Email"
@@ -96,20 +102,33 @@
 
               <!-- conteiner imnput subject-->
               <div class="input_subject">
-                <input class="name" type="text" placeholder="Your Subject" />
+                <input
+                  class="name"
+                  v-model="subject"
+                  type="text"
+                  placeholder="Your Subject"
+                />
               </div>
 
-              <!-- conteiner imnput subject-->
+              <!-- conteiner imnput message-->
               <div class="input_subject">
-                <textarea class="message" name="message" rows="20" cols="55">
+                <textarea
+                  v-model="message"
+                  class="message"
+                  name="message"
+                  rows="20"
+                  cols="55"
+                >
                Your Message</textarea
                 >
               </div>
-              <!-- button di invio dati -->
+              <!-- button di invio dati del form -->
               <div>
-                <button class="button-blue">Send Message</button>
+                <button @click="invio()" class="button-blue">
+                  Send Message
+                </button>
               </div>
-            </form>
+            </div>
           </div>
         </div>
       </div>
@@ -120,6 +139,31 @@
 <script>
 export default {
   name: "section6Comp",
+  data() {
+    return {
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+      customer_data: [],
+    };
+  },
+
+  methods: {
+    invio() {
+      this.customer_data.push({
+        name: this.name,
+        email: this.email,
+        subject: this.subject,
+        message: this.message,
+      });
+      (this.name = ""),
+        (this.subject = ""),
+        (this.email = ""),
+        (this.message = ""),
+        console.log(this.customer_data);
+    },
+  },
 };
 </script>
 
@@ -162,7 +206,7 @@ h5 {
   img {
     width: 20%;
   }
-  .conteiner-icone{
+  .conteiner-icone {
     margin-top: 40px;
   }
 }
