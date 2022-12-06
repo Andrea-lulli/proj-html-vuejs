@@ -11,25 +11,40 @@
     <div class="conteiner-bg-blu">
       <!-- conteiner card -->
       <div class="conteiner-card conteiner-sito">
-        <div class="card" v-for="(elem, index) in testimonials" :key="index">
+        <div class="card">
           <!-- img card -->
           <div>
-            <img :src="`/img/${elem.photo}`" alt="" />
+            <img :src="`/img/${testimonials[ind_dim].photo}`" alt="" />
           </div>
 
           <!-- testo card -->
           <div>
-            <span>{{ elem.name }}</span>
-            <span>{{ elem.firstname }}</span>
-            <span class="role"> - {{ elem.role }}</span>
-            <p>{{ elem.description }}</p>
+            <span>{{ testimonials[ind_dim].name }}</span>
+            <span>{{ testimonials[ind_dim].firstname }}</span>
+            <span class="role"> - {{ testimonials[ind_dim].role }}</span>
+            <p>{{ testimonials[ind_dim].description }}</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <!-- img card -->
+          <div>
+            <img :src="`/img/${testimonials[ind_dim1].photo}`" alt="" />
+          </div>
+
+          <!-- testo card -->
+          <div>
+            <span>{{ testimonials[ind_dim1].name }}</span>
+            <span>{{ testimonials[ind_dim1].firstname }}</span>
+            <span class="role"> - {{ testimonials[ind_dim1].role }}</span>
+            <p>{{ testimonials[ind_dim1].description }}</p>
           </div>
         </div>
       </div>
       <!-- pulsanti cambio card -->
       <div class="cambio-card">
-        <span class="cl-blu">&#183;</span>
-        <span>&#183;</span>
+        <span class="cl-blu" @click="cambiocard()">&#183;</span>
+        <span @click="cambiocard1()">&#183;</span>
       </div>
     </div>
   </section>
@@ -40,6 +55,21 @@ export default {
   name: "section4Comp",
   props: {
     testimonials: Array,
+  },
+  data() {
+    return {
+      ind_dim: "0",
+      ind_dim1: "1",
+    };
+  },
+  methods: {
+    //funzione per cambio card dinamico
+    cambiocard() {
+      (this.ind_dim = 0), (this.ind_dim1 = 1);
+    },
+    cambiocard1() {
+      (this.ind_dim = 2), (this.ind_dim1 = 3);
+    },
   },
 };
 </script>
@@ -108,7 +138,9 @@ span {
 }
 .cambio-card {
   span {
-    font-size: 70px;
+    font-size: 80px;
+    margin: 0 5px;
+    cursor: pointer;
   }
 }
 .cl-blu {

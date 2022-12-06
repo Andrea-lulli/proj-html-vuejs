@@ -65,6 +65,24 @@ export default {
           description:
             "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vero eos et consectetur accus adip adip.",
         },
+        {
+          id: 3,
+          photo: "25.jpeg",
+          name: "Jack",
+          firstname: "Brown",
+          role: "CFO",
+          description:
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vero eos et consectetur vero eos et consectetur accus adip adip..",
+        },
+        {
+          id: 4,
+          photo: "189.jpg",
+          name: "Oliver",
+          firstname: "Evans",
+          role: "HR Manager",
+          description:
+            "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium vero eos et consectetur vero eos et consectetur accus adip adip.",
+        },
         
       ],
       footer: [
