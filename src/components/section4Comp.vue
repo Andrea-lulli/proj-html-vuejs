@@ -26,6 +26,11 @@
           </div>
         </div>
       </div>
+      <!-- pulsanti cambio card -->
+      <div class="cambio-card">
+        <span class="cl-blu">&#183;</span>
+        <span>&#183;</span>
+      </div>
     </div>
   </section>
 </template>
@@ -74,7 +79,7 @@ export default {
   background-repeat: no-repeat;
   background-position: center;
   background-color: white;
-  background-image: url('../assets/img/img-virgolette.png');
+  background-image: url("../assets/img/img-virgolette.png");
 }
 
 div {
@@ -100,5 +105,13 @@ span {
 .role {
   color: #8e989f;
   font-size: 9px;
+}
+.cambio-card {
+  span {
+    font-size: 70px;
+  }
+}
+.cl-blu {
+  color: #377dff;
 }
 </style>

@@ -17,8 +17,9 @@
       </div>
 
       <!-- icona carrello -->
-      <div>
+      <div class="icon-carrello">
         <font-awesome-icon icon="fa-solid fa-cart-shopping" />
+        <span class="notifica">0</span>
       </div>
 
       <!-- bottone get started -->
@@ -91,5 +92,20 @@ nav {
   padding: 10px 20px;
   border-radius: 3px;
   color: white;
+}
+
+.icon-carrello{
+  position: relative;
+}
+.notifica{
+  position: absolute;
+  top: -10px;
+  right: 42%;
+  background-color:#377dff ;
+  padding: 3px 6px;
+  font-size: 10px;
+  border-radius: 50%;
+  color: white;
+  z-index: -1;
 }
 </style>
