@@ -20,7 +20,7 @@
             <img src="../assets/img/510.png" alt="" />
           </div>
           <div class="descrizione">
-            <h5 class="report">Reporting analysis</h5>
+            <h5>Reporting analysis</h5>
             <p>
               it is a long estabilished fact that a reader will be distracted by
               the readable content of a page when lookong at its layout.
@@ -74,23 +74,20 @@ export default {
 .card-sx {
   flex-basis: 46%;
   margin-top: 80px;
-  
 }
 
 .card-dx {
   flex-basis: 46%;
   margin-top: 80px;
-  img{
- padding-top: 120px;
+  img {
+    padding-top: 120px;
   }
-  
 }
 
 div {
   img {
     width: 100%;
     padding: 0 5px;
-   
   }
 }
 
@@ -107,10 +104,6 @@ h1 {
   margin: 0px 10px;
   width: 80%;
 }
-
-.report {
-  color: #377dff;
-}
 h5 {
   margin-bottom: 10px;
   margin-top: 30px;
@@ -121,7 +114,10 @@ h5 {
     width: 100%;
   }
 }
-.shadow:hover{
+.shadow:hover {
   box-shadow: 0px 15px 27px 3px #e2dcdc;
+  h5 {
+    color: #377dff;
+  }
 }
 </style>
